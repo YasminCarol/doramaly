@@ -1,0 +1,136 @@
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#141e30), to(#dbb6ee)) fixed;
+    width: 100%;
+}
+
+
+
+h2{
+     margin-top: 15%;
+     margin-left: 5%;
+     font-family: Algerian;
+
+ }
+ h1{
+margin-top: 15%;
+     margin-left: 20%;
+     font-family: Algerian;
+ }
+
+#naruto{
+    background-color:yellowgreen;
+    text-align:center;
+    
+  
+  }
+
+.btn{
+     background-color:yellowgreen;
+ 
+      text-align: center;
+  }
+
+#btn{
+     background-color:yellowgreen;
+   text-align: center;
+   margin-top: 30%;
+   margin-left: 50px;
+
+  }
+
+.quadrado2{
+      background-color: rgb(110, 109, 105);
+      margin-top: 0%;
+      padding: 3%;
+      width: 70%;
+      height: 40%;
+      position: absolute;
+      left: 17%;
+  }
+
+  .link{
+margin-right: 10%;
+margin-top: 15%;
+
+
+  }
+
+  .link4{
+margin-right: 10px;
+margin-top: 15%;
+
+  }
+
+  
+  .link1{
+
+
+margin-top: 0%;
+margin-right: 50px;
+
+
+  }
+
+.link3{
+
+margin-top: 0%;
+}
+  .quadrado{
+      background-color:  rgb(110, 109, 105);;
+      margin-top: 0%;
+      padding: 2%;
+      width: 70%;
+      height: 20%;
+      position: absolute;
+      left: 17%;
+  }
+
+  .linha{
+  background-color: rgba(255, 255, 255, 0.911);
+  margin-top: 120px;
+      padding: 4%;
+      width: 75%;
+      height: 72%;
+      position: absolute;
+      left: 13%;
+  }
+
+  #divBusca{
+  background-color:#fafafa;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+  height: 40px;
+  margin-left: 80px;
+  margin-top: -40px;
+
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:37px;
+  width:295px;
+}
+
+
+ p{
+margin-top: -120px;
+     margin-left: 20%;
+    margin-left:130px;
+     font-family: Algerian;
+     font-size: 60px;
+    
+ }
+ #pesquisar{
+     margin-top: 5px;
+     margin-left: 110px;
+     background-color: black;
+     
+    
+ }
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projeto</title>
+  <meta charset="utf-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    </head>
+     <body>
+         
+         <style>
+            #shino{
+                margin-top:-40px;
+             margin-left:-89px;
+            }
+            .linha{
+               width:310px;
+               margin-left:-5px;
+            }
+            .quadrado{
+             height:165px;
+            }
+            .btn{
+             margin-top:-100px;
+            }
+             </style>
+         
+    <div class="linha">
+         <div id="shino">
+        <br><h1>Cadastro</h1><br> 
+        
+            <br>
+            <div class="quadrado">
+      <div class="card-body d-flex justify-center align-center flex-column">
+        <input class="form-control" type="email" name="login" placeholder="Email" id="login"><br>
+          <input class="form-control" type="email" name="email" placeholder="Email" id="email"><br>
+         <input class="form-control" type="password" name="senha" placeholder="Senha" id="senha"><br>
+          
+        
+        <button class="btn " id="btn" onclick="location='index.html'">Cadastro</button><br>
+        
+
+         <div class="link1" ><br>
+            Já possui um cadastro?
+            <a href="#parapagina" onclick="location='login.html'"> Aperte aqui </a>
+            </div><br>
+            <div class="link2" onclick="location='index.html'" >
+            Deseja voltar ao home?
+            <a  href="#parapagina">Aperte aqui </a>
+            </div>
+        <div id="linha">
+
+</div>
+ </div>      
+  </div>
+       <script>
+window.onload = function(){
+    var url = 'http://hakim.profrodolfo.com.br/receitas.php/cadastroU.php';
+     btn = document.getElementById('btn');
+    var nome = document.querySelector('#nome');
+    var email = document.querySelector('#email');
+    var senha = document.querySelector('#senha');
+
+    var formData = new FormData();
+    formData.append('nome', nome.value);
+    formData.append('email', email.value);
+    formData.append('senha', senha.value);
+
+    fetch(url, { method: 'POST', body: formData})
+    .then(function (response) {
+        alert(response);
+    })
+    .then(function (body) {
+        alert(body);
+    });
+}
+    </script>
+      
+</body>
+</html>
